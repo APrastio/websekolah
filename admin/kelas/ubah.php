@@ -56,7 +56,7 @@ if (isset($_POST["submit"])) {
 		<ul>
 			<li>
 				<label for="nss">nss : </label>
-				<input type="text" name="nss" id="nss" required value="<?= $kl["nss"];  ?>">
+				<input type="text" name="nss" id="nss" required value="<?= $kl["nss"];  ?>" readonly>
 			</li>
 			<li>
 				<label>Kelas : </label>
@@ -115,7 +115,7 @@ if (isset($_POST["submit"])) {
 			</li>
 			<li>
 				<label for="nama_sekolah">Nama Sekolah : </label>
-				<input type="text" name="nama_sekolah" id="nama_sekolah" value="<?= $kl["nama_sekolah"];  ?>">
+				<input type="text" readonly name="nama_sekolah" id="nama_sekolah" value="<?= $kl["nama_sekolah"];  ?>">
 			</li>
 			<li>
 				<label for="jumlah_siswa">jumlah_siswa : </label>
