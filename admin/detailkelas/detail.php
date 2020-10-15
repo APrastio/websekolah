@@ -19,7 +19,7 @@ if (isset($_POST["cari"])) {
 <html>
 <head>
   <title>Daftar Siswa</title>
-  <link rel="stylesheet" type="text/css" href="../../user/1.css">
+  <link rel="stylesheet" type="text/css" href="../gaya.css">
 </head>
 <body>
  <!-- The sidebar -->
